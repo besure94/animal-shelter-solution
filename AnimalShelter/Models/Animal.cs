@@ -6,10 +6,10 @@ namespace AnimalShelter.Models
 
     public string Type { get; set; }
 
-    public string Name { get; set; }
+    // public string Name { get; set; }
 
-    public string AdmitDate { get; set; }
+    // public string AdmitDate { get; set; }
 
-    public string Breed { get; set; }
+    // public string Breed { get; set; }
   }
 }
