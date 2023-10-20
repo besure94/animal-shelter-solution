@@ -1,3 +1,5 @@
+using System;
+
 namespace AnimalShelter.Models
 {
   public class Animal
@@ -8,8 +10,9 @@ namespace AnimalShelter.Models
 
     public string Name { get; set; }
 
-    public string AdmitDate { get; set; }
+    public DateTime AdmitDate { get; set; }
 
     public string Breed { get; set; }
+
   }
 }
